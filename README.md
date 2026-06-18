@@ -278,7 +278,7 @@ Bike = 10 + Distance × 6
 
 ## 👨‍💻 Author
 
-**R. Vivek**
+**S.Ganesh chary**
 
 B.Tech Computer Science and Engineering  
 Mahatma Gandhi Institute of Technology (MGIT)
