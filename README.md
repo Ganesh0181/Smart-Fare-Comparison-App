@@ -71,11 +71,10 @@ The application calculates route distance using Google Maps APIs and provides es
 
 <img width="1600" height="924" alt="Fare Comparison Results" src="https://github.com/user-attachments/assets/00a8b6a9-5220-4067-a125-ed81746fcb29" />
 
-### Google Map Route View
 
 <img width="1600" height="945" alt="Google Map Route View" src="https://github.com/user-attachments/assets/66069840-e51c-4ab7-ae70-c562a32deb75" />
 
-### Best Fare Highlight
+### Google Map Route View
 
 <img width="1600" height="897" alt="Best Fare Highlight" src="https://github.com/user-attachments/assets/0c535313-7d67-4f4e-9dab-bb0070e51426" />
 
