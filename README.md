@@ -33,29 +33,7 @@ The application calculates route distance using Google Maps APIs and provides es
 
 ## 🏗️ System Architecture
 
-```text
-+------------------+
-|      User        |
-+--------+---------+
-         |
-         v
-+------------------+
-| React Frontend   |
-| (UI + Maps)      |
-+--------+---------+
-         |
-         v
-+------------------+
-| Express Backend  |
-| Fare Engine      |
-+--------+---------+
-         |
-         v
-+------------------+
-| Google Maps API  |
-| Distance Service |
-+------------------+
-```
+<img width="1536" height="1024" alt="System Architecture" src="https://github.com/user-attachments/assets/e2e4f282-6e0b-42b2-aa7e-b35e8a6dc3f8" />
 
 ---
 
@@ -77,24 +55,75 @@ The application calculates route distance using Google Maps APIs and provides es
 
 ---
 
+## 📂 Project Architecture
+
+<img width="1536" height="1024" alt="Project Architecture" src="https://github.com/user-attachments/assets/f82040bd-8979-4594-bca5-921ae53d0cf4" />
+
+---
+
+## 📸 Project Screenshots
+
+### Home Page
+
+<img width="1600" height="861" alt="Home Page" src="https://github.com/user-attachments/assets/c4f67f8e-0c9d-4515-af18-375b47a23b80" />
+
+### Fare Comparison Results
+
+<img width="1600" height="924" alt="Fare Comparison Results" src="https://github.com/user-attachments/assets/00a8b6a9-5220-4067-a125-ed81746fcb29" />
+
+### Google Map Route View
+
+<img width="1600" height="945" alt="Google Map Route View" src="https://github.com/user-attachments/assets/66069840-e51c-4ab7-ae70-c562a32deb75" />
+
+### Best Fare Highlight
+
+<img width="1600" height="897" alt="Best Fare Highlight" src="https://github.com/user-attachments/assets/0c535313-7d67-4f4e-9dab-bb0070e51426" />
+
+### Booking Redirect
+
+<img width="1600" height="898" alt="Booking Redirect" src="https://github.com/user-attachments/assets/c7a801a3-d526-4588-90d2-29faabec4f73" />
+
+---
+
 ## 📂 Project Structure
 
 ```text
-smart_fare_app/
+Smart-Fare-Comparison-App/
 │
 ├── backend/
-│   ├── server.js
+│   ├── node_modules/
+│   ├── .env
+│   ├── Dockerfile
 │   ├── package.json
-│   └── Dockerfile
+│   ├── package-lock.json
+│   └── server.js
 │
 ├── frontend/
+│   ├── node_modules/
 │   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   │
 │   ├── src/
-│   │   ├── App.js
+│   │   ├── assets/
+│   │   │   ├── auto.svg
+│   │   │   ├── cab.svg
+│   │   │   ├── ola-bike.svg
+│   │   │   ├── rapido-bike.svg
+│   │   │   └── uber-bike.svg
+│   │   │
 │   │   ├── App.css
-│   │   └── assets/
+│   │   ├── App.js
+│   │   ├── index.css
+│   │   └── index.js
+│   │
+│   ├── Dockerfile
 │   ├── package.json
-│   └── Dockerfile
+│   └── package-lock.json
 │
 ├── docker-compose.yml
 └── README.md
@@ -107,7 +136,7 @@ smart_fare_app/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Smart-Fare-Comparison-App.git
+git clone https://github.com/Ganesh0181/Smart-Fare-Comparison-App.git
 cd Smart-Fare-Comparison-App
 ```
 
@@ -117,9 +146,7 @@ cd Smart-Fare-Comparison-App
 
 ```bash
 cd backend
-
 npm install
-
 node server.js
 ```
 
@@ -137,9 +164,7 @@ Open another terminal:
 
 ```bash
 cd frontend
-
 npm install
-
 npm start
 ```
 
@@ -256,8 +281,7 @@ Bike = 10 + Distance × 6
 
 **R. Vivek**
 
-B.Tech Computer Science and Engineering
-
+B.Tech Computer Science and Engineering  
 Mahatma Gandhi Institute of Technology (MGIT)
 
 ---
